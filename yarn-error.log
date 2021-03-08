@@ -1,0 +1,67 @@
+Arguments: 
+  /Users/ychaiuzhang/.nvm/versions/node/v14.0.0/bin/node /Users/ychaiuzhang/code/pinboard/webapp/node_modules/.bin/yarn install
+
+PATH: 
+  /Users/ychaiuzhang/.nix-profile/bin:/Users/ychaiuzhang/.rbenv/shims:/Users/ychaiuzhang/.nvm/versions/node/v14.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/opt/pinterest/bin:/Library/Apple/usr/bin:/Library/Application Support/Pinterest/CPE/pkgs/arcanist/bin:/Users/ychaiuzhang/code/pinboard/webapp/node_modules/.bin:/Users/ychaiuzhang/code_review/arcanist/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ychaiuzhang/github_repos/jocelyn-tax/package.json: Unexpected token { in JSON at position 757
+      at JSON.parse (<anonymous>)
+      at /Users/ychaiuzhang/code/pinboard/webapp/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/ychaiuzhang/code/pinboard/webapp/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/ychaiuzhang/code/pinboard/webapp/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "wedding-website",
+    "version": "1.0.0",
+    "description": "A wedding website with loads of features.",
+    "main": "npmfile.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
+    },
+    "keywords": [
+      "wedding",
+      "template",
+      "website template"
+    ],
+    "author": "Ram Patra",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/rampatra/wedding-website",
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^4.0.2",
+      "gulp-uglify": "^3.0.0"
+    },
+    "dependencies": {
+      "animate.css": "^3.5.2",
+      "font-awesome": "^4.7.0",
+      "waypoints": "^4.0.1"
+    },
+    {
+      "resolutions": {
+        "graceful-fs": "^4.2.4"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
